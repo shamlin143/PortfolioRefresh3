@@ -135,3 +135,43 @@ font-size: 30px;
 p {
     font-size: 30px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #selfpic{
+        position: center;
+        border-image-width: 5px;
+        border-color: #0185a1;
+        border-style: solid;
+        width: 475px;
+        height: 475px;
+    }
+     p {
+         width: auto;
+     }
+     .jumbotron #firstname {
+        color: white;
+        font-size: 100px;
+        font-family: 'Days One', sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .jumbotron #lastname {
+        color: black;
+        font-size: 100px;
+        font-family: 'Days One', sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: auto;
+        height: auto;
+        position: inherit;
+       }
+       [class*="col-4"] {
+        width: 100%;
+      }   
+  }
+
